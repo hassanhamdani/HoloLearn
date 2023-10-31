@@ -10,7 +10,7 @@ namespace MRTKExtensions.QRCodes
         private SpatialGraphCoordinateSystemSetter spatialGraphCoordinateSystemSetter;
 
         [SerializeField]
-        private string locationQrValue = string.Empty;
+        private string locationQrValue;
 
         private Transform markerHolder;
         private AudioSource audioSource;
@@ -31,10 +31,18 @@ namespace MRTKExtensions.QRCodes
             }
         }
 
+        void ThrowError()
+    {
+        throw new System.Exception("This is a custom error message!");
+    }
+
         private void Start()
         {
             if (!QRCodeTrackingService.IsSupported)
             {
+                audioSource.Play();
+                ThrowError();
+                                
                 return;
             }
 

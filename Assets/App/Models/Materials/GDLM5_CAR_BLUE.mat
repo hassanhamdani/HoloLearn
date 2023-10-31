@@ -9,8 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GDLM5_CAR_BLUE
   m_Shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
-  m_ShaderKeywords: _DIRECTIONAL_LIGHT _FORCEPERPIXEL_ON _HOVER_LIGHT _SHADE4_ON _SPECULARHIGHLIGHTS_ON
-    _SPECULAR_HIGHLIGHTS _USEAMBIENT_ON _USEDIFFUSE_ON _USEMAINCOLOR_ON
+  m_ShaderKeywords: _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _FORCEPERPIXEL_ON _HOVER_LIGHT
+    _SHADE4_ON _SPECULARHIGHLIGHTS_ON _SPECULAR_HIGHLIGHTS _USEAMBIENT_ON _USEDIFFUSE_ON
+    _USEMAINCOLOR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -86,6 +87,7 @@ Material:
     - _AlbedoAssignedAtRuntime: 0
     - _AlphaTest: 0
     - _BlendOp: 0
+    - _BlendedClippingWidth: 1
     - _BorderLight: 0
     - _BorderLightOpaque: 0
     - _BorderLightOpaqueAlpha: 1
@@ -114,18 +116,23 @@ Material:
     - _EnableHoverColorOverride: 0
     - _EnableLocalSpaceTriplanarMapping: 0
     - _EnableNormalMap: 0
+    - _EnableProximityLightColorOverride: 0
     - _EnableTriplanarMapping: 0
     - _EnvironmentColorIntensity: 0.5
     - _EnvironmentColorThreshold: 1.5
     - _EnvironmentColoring: 0
     - _FadeBeginDistance: 0.85
     - _FadeCompleteDistance: 0.5
+    - _FadeMinValue: 0
+    - _FluentLightIntensity: 1
     - _ForcePerPixel: 1
     - _Gloss: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _HoverLight: 1
+    - _IgnoreZScale: 0
+    - _IndependentCorners: 0
     - _InnerGlow: 0
     - _InnerGlowPower: 4
     - _InstancedColor: 0
@@ -141,6 +148,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ProximityLight: 0
+    - _ProximityLightSubtractive: 0
     - _ProximityLightTwoSided: 0
     - _ReflectionScale: 2
     - _Reflections: 0
@@ -179,11 +187,16 @@ Material:
     - _UseSpecularMap: 0
     - _UseVertexColor: 0
     - _VertexColors: 0
+    - _VertexExtrusion: 0
+    - _VertexExtrusionSmoothNormals: 0
+    - _VertexExtrusionValue: 0
+    - _ZOffsetFactor: 0
+    - _ZOffsetUnits: 0
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
     - _ClippingBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
-    - _Color: {r: 0.047058824, g: 0.54901963, b: 0.99215686, a: 1}
+    - _Color: {r: 0, g: 0.4811321, b: 0.09274841, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EnvironmentColorX: {r: 1, g: 0, b: 0, a: 1}
@@ -191,6 +204,10 @@ Material:
     - _EnvironmentColorZ: {r: 0, g: 0, b: 1, a: 1}
     - _HoverColorOverride: {r: 1, g: 1, b: 1, a: 1}
     - _InnerGlowColor: {r: 1, g: 1, b: 1, a: 0.75}
+    - _ProximityLightCenterColorOverride: {r: 1, g: 0, b: 0, a: 0}
+    - _ProximityLightMiddleColorOverride: {r: 0, g: 1, b: 0, a: 0.5}
+    - _ProximityLightOuterColorOverride: {r: 0, g: 0, b: 1, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RoundCornersRadius: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TextureScaleOffset: {r: 1, g: 1, b: 0, a: 0}

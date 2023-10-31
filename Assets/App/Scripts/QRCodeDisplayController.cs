@@ -59,12 +59,14 @@ public class QRCodeDisplayController : MonoBehaviour
     private void StartTracking()
     {
         menu.SetActive(true);
+        displayText.text = "Wait for code";
         QRCodeTrackingService.QRCodeFound += QRCodeTrackingService_QRCodeFound;
         QRCodeTrackingService.Enable();
     }
 
     private void QRCodeTrackingService_QRCodeFound(object sender, QRInfo codeReceived)
     {
+        displayText.text = $"code un observed: {codeReceived.Data}";
         if (lastSeenCode?.Data != codeReceived.Data)
         {
             displayText.text = $"code observed: {codeReceived.Data}";
