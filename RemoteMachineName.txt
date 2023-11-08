@@ -1,1 +1,6 @@
 169.254.132.105
+
+make book viewing on button press
+remove paper pencil
+make desk invsibile and height adjustable
+add qwerty
