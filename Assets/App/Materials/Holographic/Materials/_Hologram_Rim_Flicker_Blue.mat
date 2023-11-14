@@ -80,8 +80,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 0.115
-    - _Brightness: 3.83
+    - _Alpha: 0.363
+    - _Brightness: 1.6
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -96,16 +96,16 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GlowSpeed: 0
-    - _GlowTiling: 0.01
+    - _GlowTiling: 0.255
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimFallness: 0.5
-    - _RimPower: 1.59
+    - _RimPower: 1.27
     - _RimStrength: 1
-    - _ScanSpeed: -0.11
-    - _ScanTiling: 8.67
+    - _ScanSpeed: -0.025
+    - _ScanTiling: 3.1
     - _Scanline: 0
     - _ScanlineSpeed: 0.05
     - _ScanlineTiling: 5.9
@@ -118,6 +118,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Direction: {r: 0, g: 0, b: -1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0.19070351, g: 0.019607844, b: 0.2264151, a: 1}
-    - _RimColor: {r: 0, g: 1, b: 0.817719, a: 1}
+    - _MainColor: {r: 0.19215688, g: 0.019607844, b: 0.227451, a: 1}
+    - _RimColor: {r: 0, g: 1, b: 0.81960785, a: 1}
     - _ScanlineColor: {r: 0.0719575, g: 0.9485294, b: 0, a: 1}

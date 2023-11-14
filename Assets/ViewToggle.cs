@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ViewToggle : MonoBehaviour
 {
     //Serial ize field for gameobject
