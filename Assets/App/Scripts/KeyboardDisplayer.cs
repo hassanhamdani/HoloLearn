@@ -10,23 +10,33 @@ public class KeyboardDisplayer : MonoBehaviour
 
     //serialize field for a TMPro
     [SerializeField] TextMeshPro textMesh;
-    
-    public void OpenSystemKeyboard()
+    private bool isKeyboardVisible = false;
+
+    public void ToggleKeyboard()
     {
-        Debug.Log("OpenSystemKeyboard");
-    keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, false, false);
-}
+        if (isKeyboardVisible)
+        {
+            // Hide the keyboard
+            keyboard.active = false;
+            keyboard = null;
+            isKeyboardVisible = false;
+        }
+        else
+        {
+            // Show the keyboard
+            keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, true, false);
+            isKeyboardVisible = true;
+        }
+    }
+
+
     // Update is called once per frame
     void Update()
     {
-      if (keyboard != null)
-    {
-        string keyboardText = keyboard.text;
-        // get the text from the keyboard and update the text mesh
-        textMesh.text += keyboardText;
-        keyboard.text = "";
-       
-
-    }  
+      // Update the TextMeshPro text with the keyboard input
+        if (keyboard != null && keyboard.status == TouchScreenKeyboard.Status.Visible)
+        {
+            textMesh.text = keyboard.text;
+        }
     }
 }

@@ -9,8 +9,11 @@ public class TableMover : MonoBehaviour
     float xPosition;
     float zPosition;
 
+
+
     //Serialize field for the table
     [SerializeField] GameObject table;
+   
 
 
     void Start()
@@ -19,6 +22,8 @@ public class TableMover : MonoBehaviour
         yPosition = transform.position.y;
         xPosition = transform.position.x;
         zPosition = transform.position.z;
+
+        
     }
 
     // Update is called once per frame
@@ -50,6 +55,8 @@ public class TableMover : MonoBehaviour
             //update the zPosition variable
             zPosition = transform.position.z;
         }
+
+      
     }
 
     
