@@ -6,11 +6,7 @@ using TMPro;
 public class KeyboardDisplayer : MonoBehaviour
 {
 
-    public TouchScreenKeyboard keyboard;
-
-    //serialize field for a TMPro
-    [SerializeField] TextMeshPro textMesh;
-    private bool isKeyboardVisible = false;
+   
 
     public void ToggleKeyboard()
     {
