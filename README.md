@@ -6,8 +6,8 @@ Product Demo:
 ## Introduction
 Welcome to HoloLearn, the future of immersive education. Revolutionizing both classroom and self-study experiences, HoloLearn bridges the gap between digital and physical learning through advanced XR technology based on the HoloLens 2. It transforms traditional educational settings into dynamic, interactive learning environments, bringing educational content to life in three dimensions.
 
-<p align="center">
-  <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/8dbba0fd-b65e-40ef-b70f-78921401bed6" alt="20231221_105607_HoloLens" style="padding: 10px; width: 50%;">
+<p align="right">
+  <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/8dbba0fd-b65e-40ef-b70f-78921401bed6" alt="20231221_105607_HoloLens" style="padding: 10px; width: 60%;">
 </p>
 
 ## Solution Overview
@@ -21,8 +21,8 @@ HoloLearn utilizes XR technology, integrating augmented reality with educational
 - **Voice-to-Text and Text-to-Voice Features**: Facilitates seamless interaction with the app's features.
 - **User-Friendly UI**: Ensures a smooth transition from physical to virtual workspaces.
 
-<p align="center">
-  <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/9ce8a253-6058-4854-93dd-6873cdf0fa8e" alt="20231221_105638_HoloLens" style="padding: 10px; width: 50%;">
+<p align="right">
+  <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/9ce8a253-6058-4854-93dd-6873cdf0fa8e" alt="20231221_105638_HoloLens" style="padding: 10px; width: 60%;">
 </p>
 
 ## Features
@@ -34,8 +34,8 @@ HoloLearn utilizes XR technology, integrating augmented reality with educational
 - **Text-to-Voice Output**
 - **Multimedia Content Integration**
 
-<p align="center">
-  <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/630e4012-dce9-4176-bfad-2cee8791a51e" alt="20231221_105653_HoloLens" style="padding: 10px; width: 50%;">
+<p align="right">
+  <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/630e4012-dce9-4176-bfad-2cee8791a51e" alt="20231221_105653_HoloLens" style="padding: 10px; width: 60%;">
 </p>
 
 ## Website Features
