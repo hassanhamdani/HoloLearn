@@ -14,7 +14,9 @@ Welcome to HoloLearn, the future of immersive education. Revolutionizing both cl
 
 ## Solution Overview
 HoloLearn reimagines educational content presentation and interaction. It allows students to overlay their physical environment with a virtual workstation, using XR technology. Educators can embed 3D objects into teaching materials with simple QR codes, which, when scanned, bring interactive 3D models to life, enabling deeper understanding.
+
 <br>
+
 ## Technology and Innovation
 HoloLearn utilizes XR technology, integrating augmented reality with educational content. Key innovations include:
 - **QR Code Integration**: Simplifies the introduction of 3D models into any educational setting.
