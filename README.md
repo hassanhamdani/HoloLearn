@@ -21,7 +21,7 @@ HoloLearn utilizes XR technology, integrating augmented reality with educational
 - **Voice-to-Text and Text-to-Voice Features**: Facilitates seamless interaction with the app's features.
 - **User-Friendly UI**: Ensures a smooth transition from physical to virtual workspaces.
 
-<p align="right">
+<p>
   <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/9ce8a253-6058-4854-93dd-6873cdf0fa8e" alt="20231221_105638_HoloLens" style="padding: 10px; width: 60%;">
 </p>
 
@@ -34,7 +34,7 @@ HoloLearn utilizes XR technology, integrating augmented reality with educational
 - **Text-to-Voice Output**
 - **Multimedia Content Integration**
 
-<p align="right">
+<p>
   <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/630e4012-dce9-4176-bfad-2cee8791a51e" alt="20231221_105653_HoloLens" style="padding: 10px; width: 60%;">
 </p>
 
