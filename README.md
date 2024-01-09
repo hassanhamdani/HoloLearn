@@ -17,7 +17,7 @@ HoloLearn reimagines educational content presentation and interaction. It allows
 
 <br>
 
-## Technology and Innovation
+## Technology
 HoloLearn utilizes XR technology, integrating augmented reality with educational content. Key innovations include:
 - **QR Code Integration**: Simplifies the introduction of 3D models into any educational setting.
 - **AI-Powered Chatbot**: Enhances learning through interactive, AI-driven discussions and support.
