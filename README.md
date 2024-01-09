@@ -6,9 +6,13 @@ Product Demo:
 ## Introduction
 Welcome to HoloLearn, the future of immersive education. Revolutionizing both classroom and self-study experiences, HoloLearn bridges the gap between digital and physical learning through advanced XR technology based on the HoloLens 2. It transforms traditional educational settings into dynamic, interactive learning environments, bringing educational content to life in three dimensions.
 
+
+
 <p>
   <img src="https://github.com/hassanhamdani/HoloLearn/assets/96621474/8dbba0fd-b65e-40ef-b70f-78921401bed6" alt="20231221_105607_HoloLens" style="padding-top: 10px; width: 60%;">
 </p>
+
+
 
 ## Solution Overview
 HoloLearn reimagines educational content presentation and interaction. It allows students to overlay their physical environment with a virtual workstation, using XR technology. Educators can embed 3D objects into teaching materials with simple QR codes, which, when scanned, bring interactive 3D models to life, enabling deeper understanding.
